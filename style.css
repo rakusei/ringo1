@@ -1,0 +1,238 @@
+body {
+  background: #000;
+}
+.video-wrap {
+  position: relative;
+}
+video {
+  display: block;
+  margin: 0  auto;
+}
+.neme {
+  font-family: serif;          
+  color: #fff;
+  font-size: 500%;
+  position: absolute;
+  left: 23%;
+  top: 90px;
+  z-index: 1;
+}
+
+.head_text {
+  font-size: 450%;
+  position: absolute;
+  left: 50%;
+  top: 300px;
+  z-index: 1;
+  color: #fff;
+}
+
+.text_sab {
+  font-size: 450%;
+  position: absolute;
+  left: 24%;
+  top: 277px;
+  z-index: 1;
+  color: #fff;
+  font-family: serif;
+}
+
+.fa-twitter  {
+  position: absolute;
+  left: 3%;
+  top: 300px;
+  z-index: 1;
+  color: #fff;
+
+}
+
+.fa-instagram {
+  position: absolute;
+  left: 3%;
+  top: 270px;
+  z-index: 1;
+  color: #fff;
+}
+
+.fa-facebook-f {
+
+  position: absolute;
+  left: 3%;
+  top: 240px;
+  z-index: 1;
+  color: #fff;
+}
+
+.trfa-sipe-s {
+  position: absolute;
+  left: 3%;
+  top: 210px;
+  z-index: 1;
+  color: #fff;
+  
+}
+
+.fa-stripe-s {
+  position: absolute;
+  left: 3%;
+  top: 210px;
+  z-index: 1;
+  color: #fff;
+}
+
+
+
+
+
+
+.fa-product-hunt {
+  position: absolute;
+  left: 3%;
+  top: 180px;
+  z-index: 1;
+  color: #fff;
+
+}
+
+.fa-user {
+  position: absolute;
+  left: 3%;
+  top: 150px;
+  z-index: 1;
+  color: #fff;
+}
+
+#kill {
+  position: absolute;
+  left: 4%;
+  top: 207px;
+  z-index: 1;
+  color: #fff;
+  text-decoration: none;
+  ;
+}
+
+#ortfolio {
+  position: absolute;
+  left: 60px;
+  top: 176px;
+  z-index: 1;
+  color: #fff;
+  text-decoration: none;
+}
+
+#profill {
+  position: absolute;
+  left: 4.2%;
+  top: 145px;
+  z-index: 1;
+  color: #fff;
+  text-decoration: none;
+}
+
+#profill:hover, #ortfolio:hover, #kill:hover {
+  color: #EE1564;
+}
+
+.fa-facebook-f:hover, .fa-instagram:hover, .fa-product-hunt:hover, .fa-stripe-s:hover, .fa-twitter:hover, .fa-user:hover {
+  color: #EE1564;
+}
+
+
+
+
+@media screen and (max-width:639px){
+
+  .neme {
+   
+    font-size: 30px;
+    text-align: center;
+
+  }
+
+  body {
+    width: 100%;
+  }
+
+  .text_sab {
+    text-align: center;
+    font-size: 30px;
+  }
+.head_text {
+
+  text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 290px;
+    left: 250px;
+}
+
+.fa-twitter {
+  font-size: 60px;
+  position: absolute;
+  top: 400px;
+  left: 100px;
+}
+
+.fa-instagram {
+  font-size: 60px;
+  position: absolute;
+  top: 400px;
+  left: 220px;
+}
+
+.fa-facebook-f {
+  font-size: 60px;
+  position: absolute;
+  top: 400px;
+  left: 340px;
+}
+
+.fa-stripe-s {
+  font-size: 60px;
+  position: absolute;
+  top: 480px;
+  left: 100px;
+}
+
+.fa-product-hunt {
+  font-size: 60px;
+  position: absolute;
+  top: 480px;
+  left: 220px;
+
+}
+
+.fa-user {
+  font-size: 60px;
+  position: absolute;
+  top: 480px;
+  left: 340px;
+}
+
+#kill, #ortfolio, #profill {
+  display: none;
+}
+
+.fa-user:hover, .fa-stripe-s:hover, .fa-product-hunt:hover {
+  color: aqua;
+}
+  
+.fa-instagram:hover {
+  color: #EE1564;
+}
+
+.fa-twitter:hover {
+  color: #1F9CEA;
+}
+
+.fa-facebook-f:hover {
+  color: #3A5692;
+}
+  
+
+
+
+}
+
+
